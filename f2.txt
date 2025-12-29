@@ -1,0 +1,7 @@
+distributed transaction
+This is an example of a distributed transaction as the transaction boundary crosses multiple
+services and databases.
+
+To ensure a successful order processing service, all four microservices must complete the
+individual local transactions. If any of the microservices fail to complete its local
+transaction, all the completed preceding transactions should roll back to ensure data integrity.
