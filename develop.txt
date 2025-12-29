@@ -1,0 +1,7 @@
+Database per Service Pattern
+One of the benefits of microservice architecture is that we can choose the technology
+stack per service.
+
+For instance, we can decide to use a relational database for service A and a NoSQL
+database for service B.
+
