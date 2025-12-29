@@ -1,0 +1,11 @@
+3. Distributed Transaction
+To demonstrate the use of distributed transactions, we’ll take an example of an
+e-commerce application that processes online orders and is implemented with microservice
+architecture.
+
+There is a microservice to create the orders, one that processes the payment, another that
+updates the inventory and the last one that delivers the order.
+
+Each of these microservices performs a local transaction to implement the individual
+functionalities:
+
