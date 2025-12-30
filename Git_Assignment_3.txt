@@ -1,0 +1,8 @@
+
+
+1) Modified master branch as develop -> i)  Created develop.txt on develop branch
+					ii) Commited & pushed file on develop with commands -> 
+						git status , git add develop.txt , git commit -m "added develop.txt" , git remote add origin "remote url" , git push
+
+2) Created feature/sub-branch on develop -> first f1 -> checkout -> f2 checkout. -> created f1.txt & f2.txt on f1 as wll f2 branch 
+					 -> After all this deleted f2 branch on local as well github.
